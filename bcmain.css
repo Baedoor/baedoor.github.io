@@ -1,0 +1,15 @@
+td#v      { font-size: 18px; font-weight:bold; }
+a#v       { font-size: 20px; }
+a:link    { color: #59B418; text-decoration:none; }
+a:visited { color: #5E8443; text-decoration:none; }
+a:hover   { color: #6CC032; text-decoration:none; }
+a:active  { color: blue;    text-decoration:none; }
+
+#announcement.p {
+    text-align: center;
+    color: #CFB284;
+    font-size: 60px;
+}
+#hd.td {
+    font-size: 40px;
+}
