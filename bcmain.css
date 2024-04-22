@@ -1,8 +1,10 @@
+td#c      { font-size: 18px; color: #99856D; }
 td#vc     { font-size: 20px; color: #B6B79D;   }
 td#vb     { font-size: 18px; font-weight:bold; color: #99856D; }    /* bigger font, bolded */
 td#v      { font-size: 20px; }                                      /* bigger font */
 a#v       { font-size: 20px; }                                      /* bigger font */
-p#cd      { color: #99856D; } /* colored, dark */
+p#cd      { color: #99856D; }                    /* colored, dark  */
+p#vc      { font-size: 20px; color: #B6B79D;   } /* colored, light */
 a:link    { color: #59B418; text-decoration:none; }
 a:visited { color: #5E8443; text-decoration:none; }
 a:hover   { color: #6CC032; text-decoration:none; }
