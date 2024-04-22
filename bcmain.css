@@ -1,9 +1,24 @@
-td#v      { font-size: 18px; font-weight:bold; }
-a#v       { font-size: 20px; }
+td#vc     { font-size: 20px; color: #B6B79D;   }
+td#vb     { font-size: 18px; font-weight:bold; color: #99856D; }    /* bigger font, bolded */
+td#v      { font-size: 20px; }                                      /* bigger font */
+a#v       { font-size: 20px; }                                      /* bigger font */
+p#cd      { color: #99856D; } /* colored, dark */
 a:link    { color: #59B418; text-decoration:none; }
 a:visited { color: #5E8443; text-decoration:none; }
 a:hover   { color: #6CC032; text-decoration:none; }
 a:active  { color: blue;    text-decoration:none; }
+/* body      { background-color: #412A0E; } /* previously: #644117 */
+/* body{
+  background-image: url(SO_texture_bg.jpg);
+  background-repeat:repeat;
+} */
+body {
+    background-image: url("graphics/bg2b.png");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 #announcement.p {
     text-align: center;
