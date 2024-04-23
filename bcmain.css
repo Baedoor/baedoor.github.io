@@ -1,4 +1,4 @@
-ul#vc     { font-size: 18px; color: #B6B79D; }
+ul#vc     { font-size: 20px; color: #B6B79D; }
 table#vc  { font-size: 18px; color: #B6B79D; }
 table#vg  { font-size: 20px; font-weight:bold; color: #B6B79D; }
 table#vg2 { font-size: 22px; font-weight:bold; color: #B6B79D; }
@@ -8,13 +8,20 @@ td#vb     { font-size: 18px; font-weight:bold; color: #99856D; }    /* bigger fo
 td#v      { font-size: 20px; }                                      /* bigger font */
 a#vb      { font-size: 22px; color: #99856D; }
 a#v       { font-size: 20px; }                                      /* bigger font */
-p#cd      { color: #99856D; }                    /* colored, dark  */
-p#vc      { font-size: 20px; color: #B6B79D;   } /* colored, light */
+p#cd      { color: #99856D; }                    /* colored, dark   */
+p#vc      { font-size: 20px; color: #B6B79D;   } /* colored, light  */
+p#vd      { font-size: 25px; color: #E0BB12;   } /* colored, golden */
+h1#vc     {                  color: #B6B79D;   }
 a:link    { color: #59B418; text-decoration:none; }
 a:visited { color: #5E8443; text-decoration:none; }
 a:hover   { color: #6CC032; text-decoration:none; }
 a:active  { color: blue;    text-decoration:none; }
-
+table.proj { border-style: ridge;  border-color: #B6B79D; }
+tr.proj    { border-style: dotted; border-color: #B6B79D; }
+th.proj    { border-style: dotted; border-color: #B6B79D; }
+td.proj    { border-style: dotted; border-color: #B6B79D; }
+li.lead    { color: #E0BB12; }
+li.dev     { color: #E09812; }
 
 body {
     background-image: url("graphics/bg2b.png");
@@ -22,13 +29,4 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-#announcement.p {
-    text-align: center;
-    color: #CFB284;
-    font-size: 60px;
-}
-#hd.td {
-    font-size: 40px;
 }
