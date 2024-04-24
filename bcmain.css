@@ -22,6 +22,7 @@ th.proj    { border-style: dotted; border-color: #B6B79D; }
 td.proj    { border-style: dotted; border-color: #B6B79D; }
 li.lead    { color: #E0BB12; }
 li.dev     { color: #E09812; }
+li.contr   { color: #8BB394; }
 
 body {
     background-image: url("graphics/bg2b.png");
