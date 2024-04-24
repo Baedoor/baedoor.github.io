@@ -10,7 +10,6 @@ a#vb      { font-size: 22px; color: #99856D; }
 a#v       { font-size: 20px; }                                      /* bigger font */
 p#cd      { color: #99856D; }                    /* colored, dark   */
 p#vc      { font-size: 20px; color: #B6B79D;   } /* colored, light  */
-p#vd      { font-size: 25px; color: #E0BB12;   } /* colored, golden */
 h1#vc     {                  color: #B6B79D;   }
 a:link    { color: #59B418; text-decoration:none; }
 a:visited { color: #5E8443; text-decoration:none; }
@@ -24,6 +23,8 @@ li.lead    { color: #E0BB12; }
 li.dev     { color: #E09812; }
 li.contr   { color: #8BB394; }
 code.vc    { font-size: 16px; color: #8BB2B3; }
+
+p.gl_tit { font-size: 25px; color: #E0BB12; text-align: center; } /* golden title */
 
 body {
     background-image: url("graphics/bg2b.png");
