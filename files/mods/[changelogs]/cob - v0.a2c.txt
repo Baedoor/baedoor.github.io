@@ -1,0 +1,59 @@
+﻿------------------------------------------------------------------
+Dedicated for: Forge 1.16.5, Forge 1.18
+------------------------------------------------------------------
+This version introduces start of 1.18 version of Civilisations,
+made entirely in code. 1.18 version progress may be slower than
+1.16, but it will try to provide similar features, depending on
+my coding abilities. Hopefully it will also introduce better
+generation using 1.18 features.
+
+1.18 version will be less supportive towards tooltips for simple
+items, considering them being explained in Patchouli.
+
+_________
+------------------------------------------------------------------
+1.18 version is designed to work for 1.18.1. 1.18.2 version should
+work, but may be unstable (and as I tested myself, will crash when
+bonemealing trees), so I'd not recommend using it as of yet.
+------------------------------------------------------------------
+
+                               ADDED:
+
+Blocks:
+* More dune sandstone variants (chiseled)
+* Dune gold ore (sandstone and dune sandstone variants)
+  - generates between y=4 and y=45, in quite big groups
+* Block of dune gold
+* [1.18] Ported dune sandstone variants (cirtain/gold ores will be ported in next semi-versions)
+
+Items:
+* Dune gold
+
+Patchouli:
+* Updated for v0.a2c resources
+
+Integrations:
+* Tinker's Construct
+  - Eotic Bamboo Block is considered as "planklike" and can be used for crafting
+* Technocraft
+  - Cirtain nuggets can be smelted in foundry
+
+Recipes:
+* [1.18] Added missing stonecutter recipes for dune sandstone
+
+
+			      CHANGED:
+Blocks:
+* [1.16] Disabled bonemealing of elements
+* [1.18] Saplings and leaves can now be composted
+* Changed dune sandstone family textures (top and bottom) from placeholders
+* Spawn blocks are now flammable, so burning down camps/villages/cities will be one of the ways to disable soldier spawning
+
+
+ 			       FIXES:
+* [1.18] Fixed Farmer's Delight recipe for Lizard Stew
+* [1.16] Added some missing tags (improved compatibility)
+* [1.16] Fixed leaves not decaying/decaying terribly slowly
+* [1.16] Fixed rendering of some slabs and stairs
+* [1.16] Stripping wood have proper animation and sound
+* [1.16] Slightly changed loot table json files for leaves, hopefully they will work correctly now

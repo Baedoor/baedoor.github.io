@@ -1,0 +1,111 @@
+﻿OUT: 05-02-2022
+------------------------------------------------------------------
+Dedicated for: Forge 1.16.5
+------------------------------------------------------------------
+CoB is recreated, meaning old version is not compatibile with second
+Updating the versions though should not impact the world, except for
+big sandy veils missing.
+
+Also, Patchouli and Farmer's Delight are two mods considered 
+coherently integrated, meaning that all their features will be not 
+considered as typical compatibility, but rather as native feature
+of a mod. Same goes for other Baedoor mods (WoB, SoB and OoB).
+
+To get into the Dunes, you only need to craft traveller stone and
+igniter for now, but igniter recipe is placeholder for later
+different method of getting it. If you do not want to cheese the game
+by developer-aimed easing, wait for v0.a3/v0.a4 which will add whole
+separate way of getting Scroll of the Dunes.
+------------------------------------------------------------------
+                               ADDED:
+Blocks:
+* Esrah Wood & most basic variants for it
+* Travellers Stone (with four dimensional variants)
+* Eotic Bamboo-related blocks:
+  - Pack of Eotic Bamboo (storage block)
+  - Bamboo Blocks (aesthetical) with variants such as slabs, stairs and carpets
+* Dune Sand & its variants (bright, wet, sandstone & sandstone bricks variations)
+  - Part of future world generation
+* Hardened Sand & Dune Sand
+* Dune Sandstone and vanilla Sandstone ores (coal, iron)
+  - vanilla ores will be retextured in v0.a3, current textures serve as a placeholder
+  - dune sandstone ores don't generate yet, they will spawn in their own biomes in v0.a3
+* Civilisation Table
+
+Weapons:
+* Bone Shortsword
+  - dmg: 6
+  - durability: 240
+  - speed: 1.5
+  - inflicts slowness I for 2 seconds after hitting
+* Bone Sabre
+  - dmg: 6
+  - durability: 140
+  - speed: 2.4
+  - inflicts slowness I for 2 seconds after hitting
+  If WoB installed:
+  - uses sabre mechanics
+  - craftable with cracked bones
+
+Plants:
+* Eotic Bamboo
+* Esrah Tree
+  -> can be planted with use of esrah sapling
+  -> esrah sapling and leaves subtly glow
+  -> growth and bonemealing disabled due to issues related to it; hopefully it will be fixed in v0.a3
+  -> esrah leaves loot tables are bugged too, so I don't recommend cutting down the trees and wait for a fix, if you want to replant them
+
+Dimensions and Biomes:
+* Dunes {dim}
+  -> Dry Lands - wastelandy biome with rare oasis generating
+  -> Eotic Lakes - desert lake biome with eotic bamboos growing
+
+Mechanics:
+* Beginnings of Empire and Hiring system made (only as hidden code, no impact on gameplay or data yet though) 
+  -> system will be controlled by "cobr_data" folder (later in dev: moved to /saves/ specific folder) and specific scoreboard teams
+     - files from cobr_data folder should not be removed/changed, as it can cause corrupting the saves
+
+Structures:
+* Oases
+* Mercenary Camp (Terten)
+  -> spawn rarely in Dunes
+  -> from time to time, terten civil spawns there
+
+Mobs:
+* White Lizard
+  -> the only one naturally spawning mob in Dunes at the moment
+* Terten Civil
+  -> added mostly as testing mob for further (v0.a3 most probably) hiring mechanics
+  -> unequipped at the moment
+  -> spawns on rare mercenary camps
+
+Food:
+* Lizard meat (+ cooked)
+  -> dropped by lizards
+* Lizard stew
+  -> made out of resources you will be able to find in Dunes
+  -> FD compatibile
+
+Items:
+* Baedoor Encyclopaedia
+  -> available only with Patchouli
+* Disbandment Scroll
+  -> once hiring mechanics are set, it will allow to disband hired warriors and citizens
+
+Advancements:
+* The Crusade Began
+  -> given at the start [recipe/starter advancement]
+--------
+* Across the Dunes (Dune Path)
+  -> given after visiting Dunes for the first time
+--------
+* Empire Foundation Set In... Woood (Empire Path)
+  -> given after getting civilisation table
+
+Integrations:
+* Bone sabre is integrated with Wastelands of Baedoor sabre mechanics
+
+Gamerules:
+* overworldImpact
+  -> config alternative for v0.a2
+  -> decides whether structures spawn also in Overworld or not (affect civilisation cities, not implemented yet)

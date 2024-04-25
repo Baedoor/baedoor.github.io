@@ -26,6 +26,24 @@ code.vc    { font-size: 16px; color: #8BB2B3; }
 
 p.gl_tit { font-size: 25px; color: #E0BB12; text-align: center; } /* golden title */
 
+/* archives table */
+table.archives {
+    text-align: center;
+    font-size:  18px;
+    color:      #C3B67C;
+}
+tr.head {
+    font-weight: bold;
+    color:       #B39E41;
+}
+td.recent {
+    color: #E0BB12;
+}
+td.old {
+    color: #99856D;
+}
+
+/* general style */
 body {
     background-image: url("graphics/bg2b.png");
 

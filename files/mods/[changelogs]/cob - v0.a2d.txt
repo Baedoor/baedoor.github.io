@@ -1,0 +1,36 @@
+﻿------------------------------------------------------------------
+Dedicated for: Forge 1.16.5, Forge 1.18.2
+------------------------------------------------------------------
+
+                               ADDED:
+General:
+* 1.18 version now supports 1.18.2
+
+Blocks:
+* Raw dune gold block
+* Block of dune gold can be now used as base for beacons
+* Eotic bamboo blocks are now flammable in proper way
+* [1.18] Block of dune gold and dune gold ore added
+* [1.18] Blooming Lais Leaves got added (wood variants will be added in next minor update)
+
+Items:
+* Raw dune gold and dune gold nugget added
+* [1.18] Dune gold ingots added
+
+Integrations:
+* Integration recipe for Chimes (eotic bamboo can be used to craft carved bamboo chime)
+* [1.16] Added support for Traveler's Titles
+
+Recipes:
+* [1.18] Added some missing recipes
+
+
+			      CHANGED:
+Blocks:
+* [1.18] Civilisation Table can now be rotated like in 1.16 version
+
+ 			       FIXES:
+* Cultural Delights integration fixed to be compatibile with 0.8 version
+* [1.18] Mats have proper hitboxes now
+* [1.18] Leaves have now correct loot tables
+* [1.18] Leaves can now be harvested easier with hoe

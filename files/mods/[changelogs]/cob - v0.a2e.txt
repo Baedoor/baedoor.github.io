@@ -1,0 +1,26 @@
+﻿------------------------------------------------------------------
+Dedicated for: Forge 1.16.5, Forge 1.18.2
+------------------------------------------------------------------
+
+                           ✣✣✣ ADDED ✣✣✣
+__________
+TRANSLATIONS:
+* Added Arabic translation! (thank you, Hamza!)
+* Added Hungarian translation! (thank you, Crash!)
+* Added Ukrainian translation! (thank you, Vladick!)
+__________
+PAINTINGS:
+* Added 1.19 vanilla paintings (Fire, Water, Wind, Earth)
+
+			  ✣✣✣ CHANGED ✣✣✣
+__________
+MECHANICS:
+* [1.16] Reintroduced tree growth and bonemealing
+__________
+TECHNICAL:
+* [1.18] Switched models, blockstates and loot tables to be data generated
+
+ 			   ✣✣✣ FIXES ✣✣✣
+
+* [1.18] Hardened dune sand recipes are now working correctly
+* [1.16] Finally fixed tree growth rendering

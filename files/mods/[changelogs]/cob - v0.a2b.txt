@@ -1,0 +1,87 @@
+﻿OUT: 19-02-2021
+------------------------------------------------------------------
+Dedicated for: Forge 1.16.5, Forge 1.18
+------------------------------------------------------------------
+This version introduces start of 1.18 version of Civilisations,
+made entirely in code. 1.18 version progress may be slower than
+1.16, but it will try to provide similar features, depending on
+my coding abilities. Hopefully it will also introduce better
+generation using 1.18 features.
+
+1.18 version will be less supportive towards tooltips for simple
+items, considering them being explained in Patchouli.
+
+_________
+v0.a2b can be considered "fixing & small new stuff update", since
+all elements added in this update are rather small, but necessary.
+
+v0.a3 will be further fixing and - hopefully - new generation,
+by this meaning new biomes and structures, also with new features.
+
+1.18 version is for now very poor version of 1.16 one, but this
+will change in v0.a2c/v0.a3.
+Patchouli guide for this release is not updated.
+------------------------------------------------------------------
+
+
+                               ADDED:
+
+    Temporarily enabled bonemealing/growth of the trees. It will
+    probably be broken, so use with caution. Any reports of bugs
+		     are highly appreciated!
+
+Blocks:
+* Lais Woodset
+* Dune Coal Block
+* Added some missing types for esrah woodset (button, pressure plate)
+* Cirtain ore 
+  - generates below y=35, it spawns 1 ore/chunk
+  - you need to place campfire below the ore to mine it (diamond or higher tier of pickaxe)
+    -> campfire can be up to five blocks below the ore
+    -> heat sources are supported by "cobr:cirtain_heaters" tag
+    -> while adding new elements to the tag, remember that lore-wise it is smoke making cirtain easier to get by mining
+
+Items:
+* Cirtain nugget and scrap
+  - Cirtain nugget can be crafted into cirtain ingot (WoB integration)
+  - Smelting nugget or ore will turn them into a scrap
+    -> smelting takes 1.5x longer time, unless you use blast furnace
+
+Dimensions and Biomes:
+* Tertenic Dunes
+* Tertenic Dunes Edge
+  - both biomes are not spawning at the moment, but will in future versions
+
+Mechanics:
+* Message system allowing player to see aesthetical pop-ups instead of chat messages
+
+Items:
+* Cirtain nugget
+* Cirtain scrap
+
+Advancements:
+* That Priceless Gem
+  - given after player gets cirtain nugget
+
+Integrations:
+* You can craft bamboo mats from Cultural Delights now using eotic bamboo
+
+
+			      CHANGED:
+Blocks:
+* Civilisation Table
+  -> textures revamped
+  -> now it is not pushed by piston
+  -> changed some parameters to match wooden block more
+
+Mechanics:
+* Dimension-related
+  -> Removed fast travelling to Dunes and Overworld
+  -> Added a way to obtain Evergreen Depths Traveller Stone (use vine to change empty traveller stone into Evergreen Depths variant!)
+
+Fixes:
+* Fixed leaves' loot tables, so they now drop correct things (leaves/saplings/sticks)
+* Corrected tool requirements for mining blocks
+* Fixed some incorrect recipes and missing tags
+* Other small fixes
+

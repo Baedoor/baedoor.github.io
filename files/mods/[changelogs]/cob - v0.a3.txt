@@ -1,0 +1,30 @@
+﻿------------------------------------------------------------------
+Dedicated for: Forge 1.16.5, Forge 1.18.2
+------------------------------------------------------------------
+
+                           ✣✣✣ ADDED ✣✣✣
+__________
+TECHNICALS:
+* Configuration file system added
+__________
+TRANSLATIONS:
+* Added Czech translation! (thank you, Skeletontonguedworld!)
+__________
+PAINTINGS:
+* Added "Worlds Collide" painting by SashaKYotoz
+__________
+MECHANICS:
+* Carving feature (experimental and may change)
+  - Use right-click with pickaxe to carve sandstone
+  - Uses mapping system that should be expendable (like bonemealing)
+__________
+NOT-FULLY-POLISHED:
+* Terten entity (currently without animations and spawn events)
+
+			  ✣✣✣ CHANGED ✣✣✣
+__________
+BLOCKS:
+* Bonemealing lais leaves now emits particles
+
+ 			   ✣✣✣ FIXES ✣✣✣
+* Some minor improvements
