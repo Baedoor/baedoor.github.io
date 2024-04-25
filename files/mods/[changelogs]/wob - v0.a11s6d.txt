@@ -1,0 +1,64 @@
+﻿v0.a11s6d is another "hotfix" update, most probably the last for sixth snapshot.
+It is focused on compatibility and - this time - on some new features, connected to lore
+(introduction to Xaine character).
+As always, hotfix also introduced several fixes which I found important enough.
+
+________________________________________________________________________
+
+                              ✣✣✣ ADDED ✣✣✣
+
+__________
+LORE
+
+* Some... new adventure/quest
+
+__________
+ADVANCEMENTS
+* Dream On (Xaine Path) 
+  - sleep in the bed
+* Message From Xaine (Xaine Path) 
+  - find gift from Xaine
+
+__________
+MUSIC:
+* Added music disc "The Book of Seth - Nostalgia of Forgotten Dreams" 
+  - obtainable by... something. Extremely rare.
+
+__________
+INTEGRATIONS:
+* Enchantments now support Enchantment Descriptions mod
+* Modded shields now are also preventing sabre defence system 
+  -  Any item instanced from ShieldItem is now counted
+
+
+                             ✣✣✣ CHANGED ✣✣✣ 
+
+__________
+STRUCTURES:
+* Jungle airship now spawns in any jungle-like biome (tagged in biome dictionary and vanilla biomes), fixing
+  some extremely low spawns in modded worlds using overhauling worldgen (such as BYG with low vanilla biome spawnrate)
+
+__________
+ENCHANTMENTS:
+* Dismantle is now supporting modded enchantments, so it can be now applied altogether with other ones 
+  - default whitelisting from MCreator got swapped into custom code blacklisting
+
+__________
+ADVANCEMENTS:
+* Rider of the Lightning advancement is again working!
+
+__________
+TECHNICAL:
+* Shooting
+  - bullets no longer care about HurtTime delay, so fast guns can hit them with bullets successfully one after another
+
+
+                             ✣✣✣ BUGFIXES ✣✣✣
+
+* [1.17/1.18] Fixed incompatibility with JEI (closes #17)
+* [1.17] Fixed incompatibility crash with Minecolonies (closes reopened #11)
+
+* Hitting the enemies with fast guns don't damage them (closes #16)
+* Pulsating Javelin use crashing the game (closes #4)
+* Properly introduced fix for BA7s0017 (music discs does not use sound perspective)
+* Fixed jungle spawns of jungle airship

@@ -1,0 +1,77 @@
+OUT: 30-03-2021
+------------------------------------------------------------------
+Dedicated for: Forge 1.15.2, Forge 1.16.4
+
+Checked versions:
+
+------------------------------------------------------------------
+                               ADDED:
+Blocks:
+* cracked lava block
+  -> has texture previously seen on lava block
+* blue nether bricks
+  -> variants (slab, stairs, wall)
+  -> chiseled version (standard & darkened)
+* charcoal block
+* smooth black sand (with slab and stairs variants)
+* bamboo block
+  -> can be used as a fuel (2 items/20s)
+* bamboo wood tier
+  -> variants:
+       - stairs
+       - slab
+       - fence
+       - trapdoor
+  -> possible recipes for crafting table
+
+* glowing obsidian (available from mage airships)
+* nether avoider
+  -> makes typical night mobs die if in the area of 50 blocks, when activated
+  -> activate by clicking right-click on avoider
+* lapis crystal and dark lapis crystal
+  -> changing states by clicking right-click on crystal
+* lapis lamp and dark lapis lamp
+* chiseled red nether bricks
+
+* horizontal stained glass
+* framed stained glass (variants for every kind of wood + 2 special ones)
+
+Effects:
+* nether avoider pulsating
+  -> does nothing, only gives you information about activated nether avoider
+     in range of its destructive power
+  -> disappears 16 seconds after leaving the area
+
+Recipes:
+* recipe for chainmail armor
+
+                              CHANGES:
+
+* changed textures:
+  -> lava block to smooth one
+  -> chiseled jungle revamped
+  -> stripped chiseled dark oak and spruce darkened
+
+* changed crocodile shotgun scheme recipe to make it much harder to craft
+* ammo boxes can be thrown only in alternative mode (by pressing M)
+* creative tab items regrouped to be more accesible
+
+* changed mage airship model
+* changed mage airship loot
+* changed mage airship spawning
+  -> bandit spawner erased
+  -> bandit spawning rate decreased to 0
+
+* changes in airships rarity once again
+  -> mage airships probability decreased from 200 to 180
+  -> military and bandit airships probability raised from 200 to 210
+  -> trader airships probability stayed the same
+
+* rifles and shotgun textures set on different pattern
+  (meaning no more distortion and generally better quality)
+
+{{{1.16 changes}}}
+* Warped framed glass
+   - cyan dye -> warped wood
+* Crimson framed glass
+   - purple dye -> crimson wood

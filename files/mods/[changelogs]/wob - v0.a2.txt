@@ -1,0 +1,32 @@
+OUT: 14-12-2020
+------------------------------------------------------------------
+Dedicated for: Forge 1.15.2
+
+Checked versions:
+
+------------------------------------------------------------------
+                               ADDED:
+Blocks:
+* firearm table (no crafting recipe)
+
+Items:
+* gun barrel
+* thrown dagger
+* cracked bone
+* handmade revolver
+
+Mechanics:
+* added firearm table GUI
+
+Others:
+* recipe for golden short revolver
+* added revolver_clip image (no current use)
+
+                              CHANGED:
+
+* changed recipe of short revolver
+* removed knockback from short revolvers use
+
+                               FIXES:
+
+* BA1_0003 - short golden revolver has no recipe

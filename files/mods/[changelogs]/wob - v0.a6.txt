@@ -1,0 +1,52 @@
+OUT: 16-03-2021
+------------------------------------------------------------------
+Dedicated for: Forge 1.15.2, Forge 1.16.4
+
+Checked versions:
+
+------------------------------------------------------------------
+                             GENERATION:
+* Ported to 1.16.4
+
+                               ADDED:
+Weapons:
+* Elephant Gun
+      - power/dmg/knock/durability: 2/5/1/350
+      - ammo: large bullet
+      - rounds: 1
+      - reload type: single (reload delay: 60 ticks/3s)
+      - shot delay: 0 ticks
+
+Items:
+* 5- and 7-rounded revolver clips
+* large bullet
+* slug
+
+
+                              CHANGED:
+
+* changed firearm table GUI aesthetics
+* crafting now uses buttons (used to fix bug BA5_0010)
+* changed firearm table placing (you can place it in different rotations)
+* added storage slots for keeping schemes in firearm table
+
+* short revolver now uses 5-rounded revolver clip
+  -> reload mechanics changed (reload delay stays the same though)
+  -> short revolver recipe changed
+* reload delay for long revolver shortened to 100 ticks (5s)
+* shot delay for long revolver shortened to 15 ticks
+
+* airships now generate in four types, each with different loot
+  (later they will differ much more, even in aesthetics)
+  -> bandit airships generate only in overworld
+  -> trader airships generate slightly more common (350 instead of 250)
+  -> old airship structures are now frozen (generating rate at 0)
+
+* small bullet recipe gives you now 3 bullets instead of 2
+
+                              BUGFIXES:
+
+* BA5_0012 - "long revolver scheme" named as "short" one
+* BA4_0008 - airship loot tables not working
+* BA4_0009 - bandits not spawning on airships
+* BA5_0010 - firearm table can dupe revolvers

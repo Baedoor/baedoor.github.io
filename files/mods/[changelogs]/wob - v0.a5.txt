@@ -1,0 +1,75 @@
+OUT: 15-03-2021
+------------------------------------------------------------------
+Dedicated for: Forge 1.15.2
+
+Checked versions:
+
+------------------------------------------------------------------
+                               ADDED:
+Items:
+* pepper box
+* long revolver
+* long revolver scheme
+
+Mechanics:
+* added red sand crafting recipe
+* added possibility of black sand being smelted into glass
+* firearm mechanics:
+  -> shot delay:
+      - 10 ticks (fast revolvers)
+      - 20 ticks (slow revolvers and rifles)
+      - 30 ticks (shotguns; not used in this version)
+      - 40 ticks (slow rifles and one-shooters; not used in this version)
+  -> reload delay (depending on clip size and firearm model)
+  -> clip size (currently, 1/2/4/6)
+  -> reload modes:
+      - manual (not used in this version)
+      - single
+      - all-in-once
+
+                              CHANGED:
+
+* changed texture colour of chiseled stripped birch wood and its slab
+  to a bit darker one
+* changed texture for handmade revolver
+* tweaked time of veil plants growth
+* deleted vanguard waraxes
+* thrown daggers now bounce up off the blocks they hit (replenishment)
+* changed short revolver recipe
+* changed chiseled black sand recipe
+
+* firearms statistics:
+  -> HANDMADE REVOLVER:
+      - power/dmg/knock/durability: 2/2/1/140
+      - ammo: gunpowder
+      - rounds: 1
+      - reload type: single (reload delay: 60 ticks/3s)
+      - shot delay: 0 ticks
+  -> PEPPER BOX
+      - power/dmg/knock/durability: 2/1/2/160
+      - ammo: small bullet
+      - rounds: 2
+      - reload type: single (reload delay: 25 ticks/2.5s)
+      - shot delay: 10 ticks
+  -> SHORT REVOLVER (+ GOLDEN)
+      - power/dmg/knock/durability: 3/1/0/210
+      - ammo: small bullet
+      - rounds: 4
+      - reload type: all-in-once (reload delay: 80 ticks/4s)
+      - shot delay: 10 ticks
+  -> LONG REVOLVER
+      - power/dmg/knock/durability: 3/3/0/290
+      - ammo: small bullet
+      - rounds: 6
+      - reload type: all-in-once (reload delay: 110 ticks/5.5s)
+      - shot delay: 20 ticks
+
+                               FIXES:
+
+* BA3_0004 - dust veil doesn't give anything when broken
+* BA3_0006 - ash veil doesn't give anything when broken
+* BA3_0005 - ash veil transforms into older state when right-clicked
+* BA3_0007 - dust veil transforms into older state when right-clicked
+* BA1_0001 - revolver in offhand is reverted
+* BA1_0002 - revolver doesn't shoot bothhand if there's the same 
+             type of it in both hands

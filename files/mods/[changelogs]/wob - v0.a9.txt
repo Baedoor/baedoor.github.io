@@ -1,0 +1,187 @@
+OUT: 9-04-2021
+------------------------------------------------------------------
+Dedicated for: Forge 1.15.2, Forge 1.16.4
+
+Checked versions:
+
+------------------------------------------------------------------
+                               ADDED:
+Weapons:
+* Bone Knife
+      - damage: 3 (+10)
+      - durability: 50
+      - speed: 1
+      - cooldown: 15s (300 ticks)
+* Ayer Knife
+      - damage: 5 (+10)
+      - durability: 110
+      - speed: 0.9
+      - cooldown: 15s (300 ticks)
+* Wither Knife
+      - damage: 8 (+5/wither effect)
+      - durability: 190
+      - speed: 0.85
+      - cooldown: 15s (300 ticks)
+* Assassin's Knife
+      - damage: 1 (+22)
+      - durability: 150
+      - speed: 1
+      - cooldown: 20s (400 ticks)
+* Stone Spear
+      - dmg/durability: 4/122
+      - speed: 0.75
+      - resistance boost: 60t/3s
+      - resistance cooldown: 15s (300 ticks)
+* Iron Spear
+      - dmg/durability: 6/270
+      - speed: 0.85
+      - resistance boost: 100t/5s
+      - resistance cooldown: 15s (300 ticks)
+* Bone Javelin
+      - dmg: 4
+      - cooldown: 3s (60 ticks)
+      - special: slowness (1s/20 ticks)
+* Stone Javelin
+      - dmg: 6
+      - cooldown: 3s (60 ticks)
+      - knockback: 1
+* Bone Throwing Axe
+      - dmg: 3
+      - cooldown: 2s (40 ticks)
+* Stone Throwing Axe
+      - dmg: 4
+      - cooldown: 2s (40 ticks)
+* Iron Throwing Axe
+      - dmg: 6
+      - cooldown: 2s (40 ticks)
+* Lefs 9 Infantry Revolver
+      - power/dmg/knock/durability: 3/1/0/200
+      - ammo: small bullet
+      - rounds: 7
+      - reload type: single (reload delay: 35 ticks/1.75s)
+      - shot delay: 30 ticks
+* Ayer Shotgun
+      - power/dmg/knock/durability: 2/3/0/245
+      - ammo: slug
+      - rounds: 1/2 (depending on mode)
+      - reload type: all-in-once (reload delay: 80 ticks/4s)
+      - shot delay: 30/0 ticks (depending on mode)
+* Ayer Sawed-Off
+      - power/dmg/knock/durability: 2/4/0/230
+      - ammo: slug
+      - rounds: 1/2 (depending on mode)
+      - reload type: all-in-once (reload delay: 80 ticks/4s)
+      - shot delay: 30/0 ticks (depending on mode)
+* Windsweeper
+      - power/dmg/knock/durability: 2/7/0/400
+      - ammo: large bullet
+      - rounds: 1
+      - reload type: single (reload delay: 140 ticks/7s)
+      - shot delay: 0 ticks
+
+Weapon Types:
+* Sabre - attacks are much faster than with sword
+          you can block attacks by holding right-click, but it also
+          disables your attack (planned: animation & no attack allowed)
+* Knife - first attack comes with additional damage or effect
+          after that it needs to reset itself (check cooldown by right-click)
+* Spear - when holding shield in off-hand, right-clicking gives you short resistance II
+          boost
+
+Ranged Characteristics:
+* Dagger - 20 ticks, stacking in 16 (can be poisoned) | dmg: 3
+* Axe - 30 ticks, stacking in 8 | dmg: 3/4/6 (bone/stone/iron)
+* Javelin - 60 ticks, stacking in 4 | dmg: 4/6 (bone/stone)
+
+Plants:
+* Tsua Flower
+      - can be bonemealed to obtain more
+      - crafting it further gives you 'star of rising day'
+      - 'star of rising day' can give you ink sack if used in 2x2 pattern
+
+Blocks:
+* Block of Mushroom Poison
+* Leghold Trap
+  -> use tripwire hook to activate, deactivate and release it
+  -> in activated mode, it catches entities
+  -> you need to release trap to let caught entity go
+  -> breaking trap in active or caught state is extremely long, 
+     but with diamond pickaxe you can do that
+
+Items:
+* Javelin Sack
+  -> you can store there your javelins
+  -> right-click with filled sack to unload
+
+* Winfleton's Diamond Ace Card (collectible, not in survival yet)
+* Winfleton's Heart Ace Card (collectible, not in survival yet)
+* Winfleton's Club Ace Card (collectible, not in survival yet)
+* Winfleton's Spade Ace Card (collectible, not in survival yet)
+
+* Lefs 9 Infantry Revolver Scheme
+* Windsweeper Scheme
+
+Advancements:
+* Entering Wastelands of Baedoor
+  -> gives you recipes for all crafting table items/blocks available in mod
+* Hunter of Lost Woods (Hunter Path - Beginning)
+  -> hidden; granted when you craft javelin, bow, throwing knife or throwing axe
+* Let the Hunt Begin (Hunter Path)
+  -> hidden; granted when you create your first javelin sack
+* Trapping the Beast (Hunter Path)
+  -> granted when you place your first leghold trap
+* Ace of Winfleton's
+  -> granted while having all 4 aces of Winfleton's Deck in inventory
+  -> in future version, will be parented to boss path
+
+Effects:
+* Curare Poison
+  -> makes you unable to walk and weak your attacks strongly (16/8 hearts)
+  -> currently not obtainable without commands
+
+Gameplay:
+* Descriptions on some items, blocks and weapons
+
+                              CHANGES:
+Weapons Mechanics:
+* Sabre weapon type now has defence mechanics (holding right-click disables
+  damage, but also make you unable to attack)
+* Crocodile Shotgun shot delay lenghtened to 40 ticks
+* Elephant Gun reload delay changed to 90 ticks
+
+Nether Avoider Mechanics:
+* Nether Avoider now kills also items related to mobs it kills
+* If powered by redstone, Nether Avoider is pulsating even if inactive
+  (this means you can activate it for certain situations, also without
+   your direct action)
+* Nether Avoider Pulsating effect shortened to 3 seconds, to make you realise
+  quicker that you are outside its range
+
+Items Mechanics:
+* right-clicking mushroom poison no more gives you poison effect
+* right-clicking mushroom poison poisons arrow, if you had it in inventory
+  (what means poison tipped arrows obtainable much easier)
+
+Naming:
+* Thrown Dagger renamed to 'Throwing Dagger', same with poisoned one
+  -> ID tags remained the same, though
+* Gun Barrel, Shotgun Barrel and Double Shotgun Barrel renamed to 'Short', 
+  'Long' and 'Double Long' Barrel. 
+  -> ID tags remained the same, though
+* Nether Avoider (Inactive) renamed to simply 'Nether Avoider'
+
+Textures:
+* Ammunition Boxes texture changed
+* Lapis and Dark Lapis Crystals texture changed (standard state)
+
+Other:
+* Messages are now shown as a golden overlay, instead of chat messages
+
+                              BUGFIXES:
+* BA9s0022 - elephant gun had wrong reload time
+
+--
+1.16:
+!!! delay on single reloading guns
+> framed glass (crimson, warped)
+> windsweeper crafting recipe [netherite scrap instead of diamond)

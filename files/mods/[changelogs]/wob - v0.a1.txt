@@ -1,0 +1,20 @@
+OUT: 6-12-2020
+------------------------------------------------------------------
+Dedicated for: Forge 1.15.2
+
+Checked versions:
+
+------------------------------------------------------------------
+                               ADDED:
+
+Items:
+* short revolver
+* golden short revolver
+* bullet
+* firearm lock
+
+MECHANICS:
+
+* gun reload:
+  - gun delay
+  - gun rounds (not-in-game, only as code)

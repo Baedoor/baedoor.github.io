@@ -1,0 +1,48 @@
+OUT: 25-02-2021
+------------------------------------------------------------------
+Dedicated for: Forge 1.15.2
+
+Checked versions:
+
+------------------------------------------------------------------
+                               ADDED:
+Blocks:
+* fake cirtain block
+* oak: slab, stairs, chiseled block, and chiseled slab
+* stripped oak: slab, stairs, chiseled block and chiseled slab
+* jungle: slab, stairs, chiseled block and chiseled slab
+* stripped jungle: slab, stairs, chiseled block and chiseled slab
+* birch: slab, stairs, chiseled block and chiseled slab
+* stripped birch: slab, stairs, chiseled block and chiseled slab
+* acacia: slab, stairs, chiseled block and chiseled slab
+* stripped acacia: slab, stairs, chiseled block and chiseled slab
+* spruce: slab, stairs, chiseled block and chiseled slab
+* stripped spruce: slab, stairs, chiseled block and chiseled slab
+* dark oak: slab, stairs, chiseled block and chiseled slab
+* stripped dark oak: slab, stairs, chiseled block and chiseled slab
+* clean birch wood (without stripes)
+* [structure only-block: always lit lamp]
+
+Items:
+* vanguard long waraxe (airship rare trophy)
+* vanguard short waraxe (craftable)
+* poisoned thrown dagger
+* mushroom poison
+* schemes (short revolver)
+
+Structures:
+* bandit airship
+
+
+                              CHANGED:
+* recipe for long grip
+* recipe for handmade revolver
+* recipe for short revolver and golden short revolver deleted
+  -> added both recipes on firearm table
+* lava shotgun barrel item deleted
+* lava & iron ammo box images deleted
+* firearm GUI:
+  - aesthetics
+  - crafting recipes
+* bandit loot table changed
+* bandit texture

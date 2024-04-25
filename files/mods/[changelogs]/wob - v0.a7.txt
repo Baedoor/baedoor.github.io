@@ -1,0 +1,88 @@
+OUT: 19-03-2021
+------------------------------------------------------------------
+Dedicated for: Forge 1.15.2, Forge 1.16.4
+
+Checked versions: Forge 1.16.4
+
+------------------------------------------------------------------
+                               ADDED:
+Blocks:
+* Always-Lit-Lamp
+      - previously added as a non-obtainable block
+      - now craftable
+
+Weapons:
+* Crocodile Shotgun
+      - power/dmg/knock/durability: 4/3/2/320
+      - ammo: slug
+      - rounds: 1/2 (depending on mode)
+      - reload type: single (reload delay: 40 ticks/2s)
+      - shot delay: 30/0 ticks (depending on mode)
+
+* Jitado Shotgun
+  -> not obtainable in survival (yet)
+      - power/dmg/knock/durability: 4/9/2/400
+      - ammo: slug
+      - rounds: 3
+      - reload type: single (reload delay: 30 ticks/1,5s)
+      - shot delay: 30 ticks
+
+* Brotherhood Sabre
+  -> found on bandit airships
+
+  -> faster than usual sword (attack speed: 3)
+  -> durability: 166
+     -> probably will have ability to be used as a shield
+        when right-clicked in main hand (without shield in offhand)
+
+* Ammo Boxes
+  -> Iron and Lava Tier
+  -> Can hold up to 200 small bullets (iron) or 120 large bullets (lava)
+  -> When 30 (iron)/20 (lava) or more bullets loaded, they 
+     can be used as grenades
+
+Items:
+* 2-rounded shotgun clip
+* crocodile shotgun scheme (craftable!)
+
+* Music Discs (found on mage and trader airships):
+  -> "Oneironaut" by The Book of Seth
+  -> "Inside the Hidden Forest Temple" by Drganie
+
+Mechanics:
+* implemented gun modes, changed by mode key (M)
+* key checking how much ammo firearm contains (Z)
+* key unloading all ammo from firearm (U)
+
+Sounds:
+* dedicated sounds for shooting:
+  -> long revolver
+  -> elephant gun
+  -> jitado shotgun
+  -> crocodile shotgun
+* sounds for dry shooting
+
+General:
+* added mod icon
+* creative tab icon changed
+
+                              CHANGES:
+
+* changed airship generation 
+  -> trader airship lowered from 300 to 250
+  -> other airships lowered from 250 to 200
+* changed airship loot
+* changed bandit loot table
+
+* reload mechanic change: now you can reload only weapon in main hand
+* sounds for shooting changed:
+  -> pepper box sound now aligned to handmade revolver
+  -> unused handmade revolver sound aligned to pepper box
+
+                              BUGFIXES:
+
+* BA6_0013 - elephant gun shows wrong message while empty
+* BA6_0014 - handmade revolver has the same shooting sound effect as
+             short revolver
+* BA6_0015 - firearm table is not rendering properly
+* BA6_0016 - guns don't lose durability when shooting

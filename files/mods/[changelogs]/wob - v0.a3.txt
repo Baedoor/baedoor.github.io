@@ -1,0 +1,44 @@
+OUT: 31-01-2021
+------------------------------------------------------------------
+Dedicated for: Forge 1.15.2
+
+Checked versions:
+
+------------------------------------------------------------------
+                               ADDED:
+Mobs:
+* bandit
+  -> ranged attack with handmade revolver
+  -> attacking players & creepers
+
+Blocks:
+* block of lava
+* block of cirtain
+* black sand
+* hardened black sand (with stairs and slab)
+* polished black sand (with stairs, slab and wall)
+* chiseled black sand (with slab)
+* sandy veil & vulcanic veil
+
+Items:
+* lava ingot
+* cirtain ingot
+* sand dust & ash dust (seeds for veil planting)
+* shotgun barrels (iron & lava & double iron)
+* grips (revolver, long)
+* revolver clips (2 & 4 & 6-rounded)
+* rifle clips (3 & 6 & 12-rounded)
+
+Farming:
+* new creeper farm (use of bandit)
+* renewable sand (sandy veil will be plantable)
+
+Other:
+* added mod creative tab
+* added lava and iron ammo boxes' images (for further functions)
+
+                              CHANGED:
+
+* changed models for weapons (resized to 16x16)
+* changed crafting recipes for revolvers 
+  (due to grip & clip additions, will be firearm table in future)

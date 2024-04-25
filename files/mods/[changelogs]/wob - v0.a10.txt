@@ -1,0 +1,506 @@
+                      THE GRAND ORMATHS UPDATE
+
+OUT: 1-06-2021
+------------------------------------------------------------------
+Dedicated for: Forge 1.15.2, Forge 1.16.4, Forge 1.16.5
+
+
+------------------------------------------------------------------
+                               ADDED:
+Blocks:
+* Baedoor Funt Block
+* Baedoor Gold Block & variants (stairs, slab, wall, chiseled, pillar, door, trapdoor)
+  -> door and trapdoor don't require redstone power to be opened
+* Baedoor Golden Lamp
+  -> emits light of level 15
+* Wood Lamps (Jungle, Acacia, Birch, Dark Oak, Oak, Spruce, Bamboo)
+  -> emit light of level 15
+  -> bamboo emits light of level 13
+* Hardened Cobblestone
+* Hardened Netherrack
+* Hardened End Stone
+* Glistering Sand
+  -> though it looks like full block, it's actually a bit lower
+* Glistering Sandstone
+  -> classic variants (slab, stairs)
+  -> smooth variants (block, slab, stairs)
+* Glistering Clay
+  -> source of end stone in overworld
+* New Bamboo variants (fence gate, door, panel)
+* Smooth Basalt variants (stairs, slab)
+  -> creative only, recipe will appear in 1.17
+  -> can be deleted if added in 1.17 (place at your own risk)
+* Dripstone Block variants (stairs, slab)
+  -> creative only, recipe will appear in 1.17
+  -> can be deleted if added in 1.17 (place at your own risk)
+* Nether Ticker
+  -> child of glowing obsidian, just like Nether Avoider
+  -> forceloads chunk it is in, if activated
+  -> can be used only in developer's mode for now (turning off developer's mode resets all forceloaded chunks)
+* Locked Chests
+  -> offers limited storage for possibility to lock chest with iron key
+  -> lock is based on key name, which means you need to rename key to the same name to open your chest
+  -> when in locked state, chest is much harder to break (depending on material)
+  -----------------
+  MATERIAL TIERS (locked hardness/general blast resistance/locked blast resistance):
+     * stone (prismarine): 225 / 6 / 12
+     * light metals (baedoor gold, gold): 250 / 6 / 9
+     * hard metals (iron): 450 / 45 / 700
+     * obsidian: 730 / 600 / 1500
+     * netherite: 900 / 700 / 1500
+     * cirtain: 1000 / 1500 / 1500
+     Obsidian, netherite & cirtain tiers need diamond pickaxe to be mined (in any state)
+
+Items:
+* Baedoor Funt
+  -> currency for trades
+* Curare Poison
+* Iron Key
+  -> can be smelted to iron nugget
+* Rusty Reaper Scheme
+* Glistering Ash
+  -> obtainable via:
+     - mining End Stone (2% chance, up to 8% with Fortune III) in End dimension
+     - shaman trade
+     - killing wind spirits
+  -> renewable source of End Stone
+* Nether Soul Essence
+  -> obtainable by killing mobs in Nether (8% chance, up to 32% with Fortune III)
+  -> renewable source of soul sand in 1.15, and soul soil in 1.16
+* Cooked Tropical Fish
+  -> restores 3 hunger (1.5 visually)
+  -> adds haste effect for 3 seconds
+  -> you can eat it even when food bar is full
+  -> cookable only in smoker or by campfire
+* Guide Book
+  -> item you get after getting your first firearm
+  -> also craftable
+  -> short version for v0.a10, will be expanded greatly in v0.a11
+* Sand Wanderer Scheme
+
+Weapons:
+
+* Iron Sabre
+  - Damage: 5 (hardened version: 6)
+  - Durability: 110 (hardened version: 190)
+  - Attack Speed: 2.5
+  - Defence Mode Cooldown: 1s
+* Golden Scimitar
+  - Damage: 5
+  - Durability: 100
+  - Attack Speed: 2.7
+  - Defence Mode Cooldown: 0.5s
+* Prismarine Sabre
+  - Damage: 6
+  - Durability: 160
+  - Attack Speed: 2.2
+  - Defence Mode Cooldown: 1s
+  - Conduit Power while holding in hand
+  - Extremely good enchanting bonus
+* White Sabre
+  - Damage: 8
+  - Durability: 220
+  - Attack Speed: 2.7
+  - Defence Mode Cooldown: 1s
+  - Speed II effect while holding in hand
+* Black Sabre
+  - Damage: 14
+  - Durability: 250
+  - Attack Speed: 2.7
+  - Defence Mode Cooldown: 0.5s
+  - Wither Effect while holding in hand
+  - Hitting entities heals you (1.5 heart)
+  - Self-harm damage reduced to constant 2 (1 heart)
+* Rusty Reaper
+  - power/dmg/knock/durability: 3/3/0/266
+  - ammo: slug
+  - rounds: 1/2
+  - reload type: quick single (reload delay: 80 ticks/4s)
+  - shot delay: 20/0 ticks (depending on mode)
+* Sand Wanderer
+  - power/dmg/knock/durability: 3/5/1/415
+  - ammo: large bullet
+  - rounds: 2
+  - reload type: single (reload delay: 80 ticks/4s)
+  - shot delay: 40 ticks
+* Rod of the Winds
+  - shots with projectiles of weak damage (4 dmg/2 heart), but relatively good knockback
+  - projectile make enemy levitate if lands on entity
+  - projectile has small chance of generating shulker box (3%) if shot on block which has air above itself
+  - cooldown of 10 seconds
+  - 5% chance of being poisoned with curare poison (for 20s) after stopping using
+  - 185 durability
+  - can be repaired using Nether Soul Essence
+
+Mobs:
+* Ormath Shaman
+  - health: 60 (30 hearts)
+  - drop 20 experience and rod of the winds
+  - can be talked with
+  - you can earn trust points through trading, enabling you to be cured or blessed by shaman
+     -> curing can be obtained once before reaching 100 trust points, after that it can be used anytime
+     -> blessing is obtainable only after reaching 100 trust points, but can be used only once
+  - spawn on jungle airship with other ormaths
+  - calls tribe when attacked
+  - when in fight mode:
+     -> affects you magically
+        -> can make you blind, poisoned with curare, levitate or set on fire
+     -> invokes wind spirits
+     -> if hurt, regenerates himself greatly
+
+     -> precised statistics:
+        -> 25% chance of doing only knockback magic attack
+        -> 15% chance of setting on fire (6s)
+        -> 35% chance of making levitate (3s)
+        -> 20% chance of blind enemy (3s)
+        -> 5% chance of poisoning with curare (3s)
+
+        -> 20% chance of invoking wind spirit while projectile hits block
+
+        -> 3s regeneration V when below 75% of health
+        -> 4s regeneration VI when below 25% of health
+
+* Ormath Villager
+  - health: 20 (10 hearts)
+  - can be traded with, if not hostile
+  - passive
+
+* Ormath Warrior
+  - health: 30 (15 hearts)
+  - drop 3 experience upon death
+  - attacks for 7 (3.5 hearts)
+  - better armored and faster than rest of ormaths
+
+* Ormath Javelin Warrior
+  - exactly the same as ormath warrior
+  - shoots bone javelins instead of melee attacking
+  - not faster, but better armored
+
+* Wind Spirit
+  - health: 12 (6 hearts)
+  - drop 1 experience and glistering ash
+  - attack of 5 (2.5 heart)
+  - immune to fire, knockback, drowning, fall damage, cactus and potions
+  - can spawn naturally on desert, swamp and frozen rivers at night, if test mode is enabled
+  - attack vexes and endermen
+
+* Ormath Rider
+  - health: 50 (25 hearts)
+  - drop 7 experience upon death; beef, leather and has chance to drop stone spear
+  - attack of 8 (4 hearts)
+  - spawns with random amount of hunters (2-5) around
+  - it's a bit more agressive, it can be aggro after any hit
+    -> being aggro is not persistent, if tribe reputation doesn't drop lower than usual
+    -> there's no way to recover tribe reputation though, except if there's ormath villager or shaman nearby
+  - spawns in jungle and dark forests
+
+* Ormath Hunter
+  - health: 25 (12.5 heart)
+  - drop 3 experience upon death; drops leather, has chance to drop stone javelin
+  - attack of 5 (2.5 heart)
+  - spawn only near riders
+  - uses similar aggro mechanics as rider
+  - spawns in jungle and dark forests
+
+* Buffalo
+  - health: 44 (22 hearts)
+  - attack: 8 (4 hearts) if aggro
+  - drop 5 experience and beef
+  - passive until you hurt him
+  - ormath's animal
+  - rideable
+  - comes in two variants
+    -> red maned
+    -> green maned
+
+Enchantment:
+* Cylinder Inspection
+  -> used for gun jamming prevention
+  -> level 1-5
+* Dismantle
+  -> used as another 'damage modifier'
+  -> each level adds 1.25 attack to the weapon
+  -> affects:
+     -> iron golems
+     -> automatons from mod (in future releases)
+     -> entities with ENBT tag "automaton_type" set to true
+        -> cross-compatibility available for mod creators
+  -> levels:
+     I: 1.25 (0.5 heart)
+     II: 2.5 (1 heart)
+     III: 3.75 (1.5 heart)
+     IV: 5 (2.5 heart)
+     V: 6.25 (3 heart)
+* Stabilisation
+  -> helps with accuracy on firearms
+  -> each level reduces accuracy penalty (default is 20)
+     I: 10
+     II: 7
+     III: 5
+* Quick Draw
+  -> reverts effects of experience
+     -> used for people who wants to keep accuracy penalty
+  -> can be used after reaching level 350 of firearms experience
+  -> each level sets experience penalty on specific level
+     I: 0.9 (level <100)
+     II: 0.7 (level <200)
+     III: 0.6 (level <300)
+     IV: 0.4 (level <400)
+     V: 0.2 (level <500)
+
+Recipes:
+* fermented spider eye crafted from red mushroom (needs additional one sugar more)
+* dispenser alternative recipe (basically vanillatweaks one, since it works well)
+* smelting soul sand return black sand (souls escape it)
+* soul soil crafted from soul sand and black sand (1.16 only)
+
+Structures:
+* Jungle Airship
+  -> home of ormath civilisation
+     * possibility of trading with ormath villagers
+     * possibility of talking to shaman
+     * possibility of boss fight with shaman
+  -> airship doesn't contain any firearm tables
+  -> spawns in jungles
+
+Gameplay:
+* lanters now emits light (13) around the player, if hold in hands
+  -> toggleable by commands (default is active)
+
+Mechanics:
+* Sabre Weapons Tier
+  -> introduced sabre experience
+     * raises after each critical hit dealt with any sabre to enemy
+     * raises after each five successful sabre defences
+  -> introduced chance to self-harm while attacking (self-harm damage is half damage of an attack)
+  -> chance of self-harm decreases with more sabre experience (mastering it to specific number decreases self-harm chance to 0%)
+     * amateur (0-40) chance: 20%
+     * intermediate (41-80) chance: 15%
+     * experienced (81-125) chance: 7%
+     * expert (126-250) chance: 3%
+     * master (250+) chance: 0%
+  -> reaching 1000 experience points grants you additional ability
+     * each 1000 experience gives you 1 additional attack point, up to 8000 (10 dmg/5 hearts)
+  -> to set sabre experience, use scoreboard "sabre_experience"
+
+* Firearm Experience
+  -> granted after shooting (jammed shooting counts)
+  -> helps with avoiding gun jamming and improve accuracy
+  -> to set firearm experience, use scoreboard "gun_experience"
+
+  -------
+  Firearm Jamming
+  -> jams firearm while trying to fire; the chance of that depends on quality of firearm, player experience and Cylinder Inspection enchantment
+  -> jamming chance formula:
+                             quality * 10 / CI enchantment * experience
+
+      [ quality: handmade firearms (2), schemed firearms (1)
+      [ experience: decreasing from 0.9 to 0 (reaching 500 level results with 0)
+
+  -------
+  Accuraccy - make your head move a bit after each shoot. It uses degree value, from formula:
+
+                               (aim_penalty * experience * googles) / 2
+
+      [ aim_penalty: default 20, reduced with Stabilisation enchantment (values: 10, 7, 5); shotguns have end value bigger of 2
+      [ experience: decreasing from 0.9 to 0 (reaching 500 level results with 0)
+      [ googles: if used, value is 1/2 (gogles not introduced in this version)
+
+
+* Ormath Reputation
+  -> tribe reputation (bound to each tribe & shaman)
+     * reputation limit is 250 points
+     * each hit reduces tribe reputation for 25
+     * tribe becomes agressive after reaching -50 reputation value (default is 0)
+       -> loyal friendship with shaman doesn't preserve you from that penalty
+     * you can raise your reputation by trade
+     * if any ormath is killed by player, tribe reputation drop for 275 points
+       -> you won't be punished only after getting almost reputation limit
+     * if shaman is killed, tribe becomes hostile immediately; it doesn't matter if it's player killing shaman
+       -> reputation drops for 500
+
+* Renewablity
+  -> End Stone (by Glistering Ash/Sand/Clay, via shaman trades, aggro shaman or wind spirit farm)
+  -> Clay (via ormath trades)
+  -> Wither Rose (via shaman trades)
+  -> Jungle Wood (via ormath trades)
+  -> Soul Sand (via Nether Soul Essence)
+  -> Soul Soil
+  -> Shulker Box (via using Rod of the Winds)
+
+* Quick Single reload type
+  -> you still need to reload bullets one-by-one, but you can reload during cooldown (meaning you can reload faster)
+  -> technically it's just reload button enabling after about 35% of a reload time
+
+* Nether Avoider
+  -> it now has Reaper mode, enabled through commands
+     * on Reaper mode, Avoider kills any living entity except player 
+       (intended as back-compatibility feature, enabling universal cross-mod integration in exchange for radical use)
+  -> it has counterpart block, "Avoider_Block" obtainable via commands; it serves as a transparent alternative
+     * it doesn't use Reaper mode
+
+Advancements:
+* Awake the Eye (Lore Path)
+  -> granted when on Nether Avoider Pulsating effect for the first time
+* Part of the Gun, Let's Start the Fun (Firearm Path)
+  -> granted after first firearm lock crafting; it means to be beginning for firearm path
+* Mobile Firearm Crafting (Firearm Path, hidden)
+  -> granted after taking firearm table from airship
+* Sharpest Sharpshooter (Firearm Path)
+  -> given when reaching master level of firearm experience (500 experience)
+* Fingers Are My Revolvers (Firearm Path)
+  -> granted after successful shooting with Quick Draw enchantment
+* Quick... and Proud of It! (Sabre Path)
+  -> granted after first kill with sabre; starts sabre path
+* Shields Are For Newbies (Sabre Path)
+  -> granted after first five successful defences with sabre
+* Mastermind of Swordsmanship (Sabre Path)
+  -> granted when reaching master level of sabre experience (250 experience)
+* Blessed by Gods of War (Sabre Path, hidden)
+  -> granted after reaching 1000 sabre experience - opens special ability for sabres
+* The Baedoor Universe (Lore Path)
+  -> granted after getting first firearm
+* Ormaths! (Lore Path, Ormath)
+  -> granted after first interaction with ormaths
+* Ormath Friend (Lore Path, Ormath, Friendly)
+  -> granted after reaching personal 250 tribe reputation points
+* Friend of Grand Ormath Clan (Lore Path, Ormath, Friendly)
+  -> granted after reaching personal 750 tribe reputation points
+* Ormath Betrayer (Lore Path, Ormath, Hostile)
+  -> granted after reaching personal -50 tribe reputation points
+* Against the Spirits of Nature (Lore Path, Ormath, Hostile)
+  -> granted after killing Ormath Shaman
+
+Mod Compatibility:
+
+  NETHER AVOIDER EFFECT
+   Cross-compatibility enabled for mod creators, to choose mobs they want to be killed by Nether Avoider
+    -> Team "avoider_killable" counted as killable by Nether Avoider
+       -> make entities drop their loot, if not being already filtered as "night creatures" drop
+    -> ENBT logic tag "avoider_killable" set to true counted as killable by Nether Avoider
+       -> despawn entities loot
+
+    Compatibility confirmed (s3 and higher)
+    -> The Arcaneum [not confirmed, planned for 1.13 version]
+    -> Upon Infernal Depths [not confirmed]
+    Compatibility confirmed (s4 and higher)
+    -> Caves of Cobalt [not confirmed]
+    -> Omega Adventure [not confirmed, planned for 0.4 version]
+    -> Xenoclus 2 [not confirmed]
+    -> Elemental Mix [confirmed, not known version]
+    -> Murky [confirmed, not known version]
+    -> Hals Exploration Mod [planned for later date]
+    -> Klsts's Adventure Mod [not confirmed]
+    Sent
+    -> Cazfps Chronicles
+    -> Mexicraft
+    -> Elvenation
+
+  DISMANTLE ENCHANTMENT
+   Cross-compatibility enabled for mod creators. Using "automaton_type" ENBT tag set to "true" value enables
+   Dismantle enchantment to affect mobs (it's aimed for mechanical mobs).
+
+    Compatibility confirmed (s4 and higher)
+    -> Hals Exploration Mod [planned for later date]
+    -> Adventures and Adversaries [not known version]
+
+Commands:
+* wobrRule_Test - used to switch on/off between test features; deactivating also resets all forceloaded chunks
+* wobrRule_Structures - enables or disables possibility to generate additional structures (for future versions, possible dungeons/altars/houses)
+* wobrRule_Avoider - switch between Reaper and Normal mode for Nether Avoider
+* wobrRule_Light - switch between lantern giving light or not
+* wobrGetTest - returns information about test features enabled/disabled
+* wobrGetStructures - returns information if additional structures are enabled
+* wobrGetExperience - used to check amount of experience (sabres/firearms)
+* wobrGetAvoider - returns information about mode for Nether Avoider
+* wobrGetLight - returns information about lanterns giving light or not, when hold
+
+                              CHANGES:
+Blocks:
+* Nether Avoider now can kill specific mobs from other mods, if cross-compatibile
+* Nether Avoider now kills also bandit, husks, stray, drowned, slimes, blazes, magma cubes, ghasts and wither skeletons
+  -> stray and drowned items aren't counted, so it can be used to farm tridents, tipped arrows & gold [copper in 1.17], if placed wisely
+* Changed Cirtain Block mining requirement: diamond tool tier instead of wooden
+* Cirtain Block hardness lowered from 88 to 77
+* Lapis Towers now give enchantment bonus, being stronger than bookshelf
+* Hid Nether Avoider (active) from creative tab
+* Bamboo Trapdoor texture changed
+* Nether Avoider texture changed
+
+Farming:
+* Vulcanic veil grows faster in Nether
+* You can now bonemeal both vulcanic and sand veil
+  -> vulcanic veil has 40% chance to grow after each bonemealing
+  -> sand veil has 45% chance to grow after each bonemealing
+
+Items:
+* Tsua obtainable in survival (by shaman trade)
+
+Mobs:
+* Bandit now has smaller view radius (100 instead of 120)
+* Bandit now drops experience (5 xp)
+* Music Disc "Oneironaut" now has small chance (2%) to drop after killing bandit
+* Bandit spawning naturally despawns (also drops pepper box instead of golden short revolver)
+  -> that change doesn't affect airship bandits
+  -> bandits spawning on badlands have slightly higher chance of dropping loot
+* Added dedicated sounds for bandit
+
+Effects:
+* changed icon for Nether Avoider Pulsating
+
+Advancements:
+* Collectible Path now comes from Lore Path
+
+Generation:
+* revamped structures generation
+  -> airship spawn via spawn block
+* airship generation lowered a bit (all airships lowered of 10)
+
+Weapon Statistics:
+* assassin's knife base damage raised to 2
+* brotherhood's sabre base damage raised to 10
+* brotherhood's sabre durability raised to 210
+* elephant gun reload time raised from 90 to 105 ticks
+* crocodile shotgun reload time raised from 40 to 55 ticks
+* lefs9 revolver reload delay lowered from 35 to 25 ticks
+* lefs9 revolver reload type changed to quick single
+
+Recipes:
+* ink sacks recipe from tsua changed to be more expensive (9 instead of 4)
+* wither knife now crafted from wither skeleton skull, instead of nether star
+* crocodile shotgun scheme now needs blaze rod instead of feather
+* bamboo no longer can create crafting table (replaced with recipe for bamboo panel)
+* nether avoider now requires three wither skeleton skulls instead of nether star
+
+Inventory:
+* recipe book sorted into categories
+
+Renaming:
+* Black Sand and all its variants renamed to Vulcanic Sand
+  -> ID tags not changed
+* Always-Lit-Lamp renamed to Everlit Lamp
+  -> ID tags not changed
+
+                              BUGFIXES:
+
+* BA6_012B - airships sometimes not fully generate, cut on chunk border
+* BA9s0024 - spawn blocks don't generate structures
+* BA9s0020 - sabre disables all types of damage
+* BA9_0027 - husks, strays and drowned aren't affected by Nether Avoider pulsating
+* BA5_0011 - single reload mode can be avoided by pressing "r" fast
+* BA9s0023 - text appearing on screen remain forever or until new text comes
+* BA9_0026 - text on screen remain forever (1.16 version)
+* BA9_0029 - knives & spears don't do their preferrable damage
+* BAXs0032 - items don't stack
+* BAXs0031 - bandit doesn't attack
+* BA9_0025 - textures of some weapons are blurred
+
+                            TEST FEATURES:
+Mechanics:
+* Active Nether Tickers in range add chunks to be forceloaded
+
+Gameplay:
+* Overlay showing sabre and firearm experience on top of the screen
+
+Mobs:
+* Wind Spirit can spawn
