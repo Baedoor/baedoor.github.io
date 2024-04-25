@@ -1,0 +1,60 @@
+                                v0.a1
+
+OUT: 31-08-2021
+------------------------------------------------------------------
+Dedicated for: Forge 1.14.4, Forge 1.15.2, Forge 1.16.5
+
+------------------------------------------------------------------
+                               ADDED:
+Blocks:
+* Herbalist Table
+- currently works as aesthetic blocks, its use will come with next versions (will serve as part of herbalist equipment)
+* Glistering Ice
+* Block of Rotten Flesh
+* Scroll Table
+
+Items:
+* Empty Scroll
+* Souls (4 variants)
+  - drop from mobs killed in specific dimension
+
+Scrolls:
+* Lumio
+  - Make you see in darkness
+  - Levels [I-III*/V]
+    {I: 15s-3B|II: 30s-6B|III: 45s/60s-9B|IV: 90s|V: 180s}
+  - Variants [Self-Target-Field]
+  * for field variant
+* Blou
+  - Push back entities
+  - Levels [I-III]
+  - Variants [Self-Target]
+
+Mechanics:
+* Scroll creating
+- Requires at least level 6 of experience (takes 10 experience points for each scroll created)
+- Lumio Scroll (empty scroll, lapis, any soul, glowstone^; modifier for target/field variants)
+- Blou Scroll (empty scroll, lapis, overworld soul+; modifier for target)
+- Selecting level
+  -> Amount of ingredients (marked with ^)
+  -> Amount of souls for non-ingredient spells (marked with +)
+  -> Advanced and master level reduce "cooldown" time of spell
+- Modifier gems (self, target, field); used vanilla ones temporarily
+  -> self: emerald [usually not needed]
+  -> target: gold ingot
+  -> field: diamond
+
+Advancement:
+* Soft Shivering
+-> "welcoming" recipe advancement
+
+Integration Features:
+* Possibility to extend gems with forge tags:
+- "scroll_gem_self" - for self-applicable scrolls (cheapest ones)
+- "scroll_gem_target" - for scrolls used on other entities (medium rare)
+- "scroll_gem_field" - for scrolls using field effects (rare)
+
+Mod Integration:
+* Wastelands of Baedoor
+- glistering ice is obtainable
+- you can craft glistering ash and nether soul essence from souls
