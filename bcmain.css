@@ -25,6 +25,13 @@ li.contr   { color: #8BB394; }
 code.vc    { font-size: 16px; color: #8BB2B3; }
 
 p.gl_tit { font-size: 25px; color: #E0BB12; text-align: center; } /* golden title */
+p.m_data { font-size: 20px; color: #A9B65D; text-align: left; margin-top: 1px; margin-bottom: 1px; margin-left: 8px;  } /* music data */
+p.m_dscr { font-size: 19px; color: #B6B79D; text-align: left; margin-top: 9px; margin-bottom: 9px; margin-left: 14px; } /* music info */
+
+/* svg changer to default background dark cream (use Codepen for hex-code conversion: https://codepen.io/sosuke/pen/Pjoqqp) */
+img.def  {
+    filter: invert(90%) sepia(9%) saturate(543%) hue-rotate(23deg) brightness(81%) contrast(86%);
+}
 
 /* archives table */
 table.archives {
