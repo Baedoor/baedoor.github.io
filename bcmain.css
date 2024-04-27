@@ -9,7 +9,7 @@ td#v      { font-size: 20px; }                                      /* bigger fo
 a#vb      { font-size: 22px; color: #99856D; }
 a#v       { font-size: 20px; }                                      /* bigger font */
 p#cd      { color: #99856D; }                    /* colored, dark   */
-p#vc      { font-size: 20px; color: #B6B79D;   } /* colored, light  */
+p#vc      { font-size: 20px; color: #B6B79D;   } /* colored, light  */ /* deprecated in favour of `class=def` */
 h1#vc     {                  color: #B6B79D;   }
 a:link    { color: #59B418; text-decoration:none; }
 a:visited { color: #5E8443; text-decoration:none; }
@@ -27,6 +27,18 @@ code.vc    { font-size: 16px; color: #8BB2B3; }
 p.gl_tit { font-size: 25px; color: #E0BB12; text-align: center; } /* golden title */
 p.m_data { font-size: 20px; color: #A9B65D; text-align: left; margin-top: 1px; margin-bottom: 1px; margin-left: 8px;  } /* music data */
 p.m_dscr { font-size: 19px; color: #B6B79D; text-align: left; margin-top: 9px; margin-bottom: 9px; margin-left: 14px; } /* music info */
+
+ul.def {
+    font-size:    20px;
+    color:        #B6B79D;
+}
+
+p.def {
+    margin-left:  15px;
+    margin-right: 15px;
+    font-size:    20px;
+    color:        #B6B79D;
+}
 
 /* svg changer to default background dark cream (use Codepen for hex-code conversion: https://codepen.io/sosuke/pen/Pjoqqp) */
 img.def  {
