@@ -50,6 +50,18 @@ td.old {
     color: #99856D;
 }
 
+/* contributions */
+table.contr {
+    padding:       15px;
+    font-size:     29px;
+    width:         100%;
+    text-align:    center;
+    color:         #99856D;
+}
+td.contr {
+    padding: 40px;
+}
+
 /* general style */
 body {
     background-image: url("graphics/bg2b.png");
