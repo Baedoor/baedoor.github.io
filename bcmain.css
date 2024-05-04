@@ -52,7 +52,7 @@ table.songlist {
     /* display:      table; */
 }
 td.slo { /* order  */ width:  5%; }
-td.slt { /* title  */ width: 55%; }
+td.slt { /* title  */ width: 55%; text-align: left; }
 td.sln { /* length */ width: 10%; }
 td.sll { /* lyrics */ width: 30%; }
 
