@@ -10,6 +10,13 @@
     <meta property="og:url"         content="https://baedoor.github.io/" />
     <meta property="og:image"       content="https://baedoor.github.io/graphics/main.png" />
     <meta property="twitter:image"  content="https://baedoor.github.io/graphics/main.png" />
+
+    <script src="import.js"></script>
+    <script>
+     $(document).ready(function(){
+        $('#header').load("header.html");
+     });
+    </script>
 </head>
 
 <body>
@@ -18,18 +25,7 @@
     data-config="{'skin':'https://static.tumblr.com/su8juwr/WeCmrhcyn/sol.css','volume':50,'autoplay':false,'shuffle':false,'repeat':1,'placement':'top','showplaylist':false,'playlist':[{'title':'Ostatnia Klatka - Przetworzona %u017Bywno%u015B%u0107','url':'https://www.youtube.com/watch?v=yehmEQtKVkc'},{'title':'Ministry - Revenge','url':'https://www.youtube.com/watch?v=CJYVwFR4Mdw'},{'title':'W%u0119drowcy~Tu%u0142acze~Zbiegi - II','url':'https://www.youtube.com/watch?v=OYXnaN2Wa5k'},{'title':'Spiritual Front - Jesus Died In Las Vegas','url':'https://www.youtube.com/watch?v=0USSHqur1Qg&pp=ygUXamVzdXMgZGllZCBpbiBsYXMgdmVnYXM%3D'},{'title':'Ikon - Toxicity','url':'https://www.youtube.com/watch?v=MvkzQqAAYsQ'},{'title':'Sea Power - Fire Escape In The Sea','url':'https://www.youtube.com/watch?v=kNwd56ZhoPI&pp=ygUJc2VhIHBvd2Vy'},{'title':'Sweet Ermengarde - A Promise To Fulfill','url':'https://www.youtube.com/watch?v=42Q0sNZ9yR4'}]}" ></script>
      SCM Music Player script end -->
 
-    <hr color="#572F15">
-    <table width="100%">
-        <tr>
-            <td width="16%" align="center"> <a href="index.html"      id="v"> About                </a> </td>
-            <td width="16%" align="center"> <a href="projects.html"   id="v"> Projects (developed) </a> </td>
-            <td width="16%" align="center"> <a href="todo.html"       id="v"> Projects (planned)   </a> </td>
-            <td width="16%" align="center"> <a href="contribute.html" id="v"> How to contribute?   </a> </td>
-            <td width="16%" align="center"> <a href="ca.html"         id="v"> Art                  </a> </td>
-            <td width="16%" align="center"> <a href="music.html"      id="v"> Music                </a> </td>
-        </tr>
-    </table>
-    <hr color="#572F15">
+    <div id="header"></div>
 
     <br><br>
     <table width="100%" cellpadding="15px">
