@@ -1,14 +1,15 @@
 <!doctype html>
 <head>
-    <title> Baedoor </title>
-    <link rel="shortcut icon"       href="graphics/banner_baedoor.png">
-    <link rel="stylesheet"          href="bcmain.css">
+    <title> Baedoor - Writing </title>
+    <link rel="shortcut icon"       href="../graphics/banner_baedoor.png">
+    <link rel="stylesheet"          href="../bcmain.css">
     <meta charset="UTF-8">
 
-    <script src="import.js"></script>
+    <script src="../import.js"></script>
     <script>
      $(document).ready(function(){
-        $('#header').load("header.html");
+        $('#header').load("../header1.html");
+        $('#sections').load("_sections.html");
      });
     </script>
 </head>
@@ -21,11 +22,7 @@
     <table class="archives" cellpadding="10px" width="100%" valign="top">
         <tr valign="top">
             <td height="700px" width="20%">
-                <p class="gl_tit"> Categories </p>
-                <hr color="#B6B79D">
-                <p class="def"> <a href="_games.html"> Stories       </a> </p>
-                <p class="def"> <a href="_games.html"> Short Stories </a> </p>
-                <p class="def"> <a href="_games.html"> Poems         </a> </p>
+                <div id="sections"></div>
             </td>
             <td width="10%"></td>
             <td width="70%">
