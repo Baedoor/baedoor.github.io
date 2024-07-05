@@ -10,16 +10,6 @@
      $(document).ready(function(){
         $('#header').load("header.html");
      });
-
-     window.onload = function(){
-        let is = screen.height / 3.6;
-
-        let imgs = document.getElementsByTagName('img');
-
-        for(var i = 0; i < imgs.length; i++) {
-            imgs[i].height = is;
-        }
-     };
     </script>
 </head>
 
@@ -253,3 +243,13 @@
     </table>
 
 </body>
+
+<script>
+    let is = screen.height / 3.6;
+
+    let imgs = document.getElementsByTagName('img');
+
+    for(var i = 0; i < imgs.length; i++) {
+        imgs[i].height = is;
+    }
+</script>
