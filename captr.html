@@ -28,13 +28,13 @@
     <table align="center" width="90%">
         <tr align="center">
             <td width="30%">
-                <img src="files/ca/ptr_crown_set.jpg" height="300px">
+                <img src="files/ca/ptr_crown_set.jpg" height="1px">
             </td>
             <td width="30%">
-                <img src="files/ca/ptr_taneth_set.png" height="300px">
+                <img src="files/ca/ptr_taneth_set.png" height="1px">
             </td>
             <td width="20%">
-                <img src="files/ca/ptr_ragada_towers_2.png" height="300px">
+                <img src="files/ca/ptr_ragada_towers_2.png" height="1px">
             </td>
         </tr>
         <tr align="center">
@@ -46,10 +46,10 @@
     <table align="center" width="90%">
         <tr align="center">
             <td width="50%">
-                <img src="files/ca/ptr_ragada_towers.png" height="300px">
+                <img src="files/ca/ptr_ragada_towers.png" height="1px">
             </td>
             <td width="33%">
-                <img src="files/ca/ptr_ragada_windows.png" height="300px">
+                <img src="files/ca/ptr_ragada_windows.png" height="1px">
             </td>
         </tr>
         <tr align="center">
@@ -60,13 +60,13 @@
     <table align="center" width="90%">
         <tr align="center">
             <td width="33%">
-                <img src="files/ca/ptr_redoran_bridge.png" height="300px">
+                <img src="files/ca/ptr_redoran_bridge.png" height="1px">
             </td>
             <td width="33%">
-                <img src="files/ca/ptr_orsimer_shield.png" height="300px">
+                <img src="files/ca/ptr_orsimer_shield.png" height="1px">
             </td>
             <td width="33%">
-                <img src="files/ca/ptr_rga_furnp_add.png" height="300px">
+                <img src="files/ca/ptr_rga_furnp_add.png" height="1px">
             </td>
         </tr>
         <tr align="center">
@@ -77,3 +77,13 @@
     </table>
 
 </body>
+
+<script>
+    let is = screen.height / 3.6;
+
+    let imgs = document.getElementsByTagName('img');
+
+    for(var i = 0; i < imgs.length; i++) {
+        imgs[i].height = is;
+    }
+</script>
