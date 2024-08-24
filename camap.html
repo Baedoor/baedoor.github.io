@@ -1,0 +1,54 @@
+<!doctype html>
+<head>
+    <title> Baedoor - Art (Baedoor) </title>
+    <link rel="shortcut icon" href="graphics/banner_wob.png">
+    <link rel="stylesheet" href="bcmain.css">
+    <meta charset="UTF-8">
+
+    <script src="import.js"></script>
+    <script>
+     $(document).ready(function(){
+        $('#header').load("header.html");
+     });
+    </script>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <br>
+    <table width="30%" align="center" id="vg">
+        <tr>
+            <td width="33%" align="center"> <a href="camap.html"> Maps                                 </a> </td>
+            <td width="33%" align="center"> <a href="cabd.html">  Baedoor                              </a> </td>
+            <td width="33%" align="center"> <a href="captr.html"> Project Tamriel <br> Tamriel Rebuilt </a> </td>
+        </tr>
+    </table>
+    <br><br><br>
+
+    <table align="center" width="90%">
+        <tr align="center">
+            <td width="25%" colspan="3">
+                <img src="files/ca/map_b3d.png" height="1px">
+            </td>
+            <td width="25%" colspan="3">
+                <img src="files/ca/map_disanteldir.png" height="1px">
+            </td>
+        </tr>
+        <tr align="center">
+            <td id="vb" colspan="3"> Khacari and Disane islands (by Toma400) <br><br> </td>
+            <td id="vb" colspan="3"> Map of Disanteldir town (by Toma400)    <br><br> </td>
+        </tr>
+    </table>
+
+</body>
+
+<script>
+    let is = screen.height / 2.4;
+
+    let imgs = document.getElementsByTagName('img');
+
+    for(var i = 0; i < imgs.length; i++) {
+        imgs[i].height = is;
+    }
+</script>
