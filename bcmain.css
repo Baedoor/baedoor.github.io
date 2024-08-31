@@ -20,7 +20,8 @@ tr.proj    { border-style: dotted; border-color: #B6B79D; }
 th.proj    { border-style: dotted; border-color: #B6B79D; }
 td.proj    { border-style: dotted; border-color: #B6B79D; }
 li.lead    { color: #E0BB12; }
-li.dev     { color: #E09812; }
+li.rev     { color: #DAC79F; }
+li.dev     { color: #A7A25B; }
 li.contr   { color: #8BB394; }
 li.trnsl   { color: #6B8E90; }
 code.vc    { font-size: 16px; color: #8BB2B3; }
