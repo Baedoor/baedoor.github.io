@@ -24,6 +24,7 @@ li.rev     { color: #DAC79F; }
 li.dev     { color: #A7A25B; }
 li.contr   { color: #8BB394; }
 li.trnsl   { color: #6B8E90; }
+hr.def     { border: 1px solid #6e5f42; }
 code.vc    { font-size: 16px; color: #8BB2B3; }
 
 p.gl_tit { font-size: 25px; color: #E0BB12; text-align: center; } /* golden title */
